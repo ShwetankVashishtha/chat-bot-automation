@@ -1,0 +1,10 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "qa-india-fiction-chatbot-automation",
+      "CONTAINERMODE": "echo"
+    },
+    "Sources": {},
+    "Envs": {}
+  }
+}
