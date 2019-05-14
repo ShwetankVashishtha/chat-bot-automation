@@ -4,14 +4,17 @@ Automate tests for Bots build upon Artificial Intelligence and Machine Learning 
 
 Project leverages open source and freely distributed <a href='https://github.com/codeforequity-at/botium-core'>Botium</a> libraries to develop scripts. 
 
-# Botium Wiki
+<b>Botium Wiki</b>
 
 https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 
-# Execute from docker container
+# Execute from Docker Container
 cd .. && docker build chat-bot-automation
 
-# Usage
+<b>Description</b><br>
+Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on apline linux image inside container. Docker hub repository: https://cloud.docker.com/repository/docker/shwetankvashishtha/chat-bot-automation 
+
+# Execute (Usage)
 <b>Install botium-bindings globally</b><br>
 npm install -g botium-bindings<br>
 
