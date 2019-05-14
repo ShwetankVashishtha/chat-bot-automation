@@ -8,6 +8,9 @@ Project leverages open source and freely distributed <a href='https://github.com
 
 https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 
+# Execute from docker container
+cd .. && docker build chat-bot-automation
+
 # Usage
 <b>Install botium-bindings globally</b><br>
 npm install -g botium-bindings<br>
