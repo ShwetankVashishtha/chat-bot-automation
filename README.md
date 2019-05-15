@@ -12,11 +12,11 @@ https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 cd .. && docker build chat-bot-automation
 
 <b>Description</b><br>
-Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on apline linux image inside container. Docker hub repository: https://cloud.docker.com/repository/docker/shwetankvashishtha/chat-bot-automation 
+Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on alpine linux image inside container. Docker hub repository: https://cloud.docker.com/repository/docker/shwetankvashishtha/chat-bot-automation 
 
 # Execute (Usage)
-<b>Install botium-bindings globally</b><br>
-npm install -g botium-bindings<br>
+<b>Install botium-bindings and mocha globally</b><br>
+npm install -g botium-bindings && npm install -g mocha<br>
 
 <b>Extend Mocha specs with the Botium test runner</b><br>
 botium-bindings init mocha<br>
