@@ -9,7 +9,7 @@ Project leverages open source and freely distributed <a href='https://github.com
 https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 
 # Execute from Docker Container
-docker build chat-bot-automation .
+docker build .
 
 <b>Description</b><br>
 Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on alpine linux image inside container. Docker hub repository: https://cloud.docker.com/repository/docker/shwetankvashishtha/chat-bot-automation
