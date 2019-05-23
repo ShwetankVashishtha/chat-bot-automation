@@ -1,0 +1,25 @@
+version: '3.4'
+services:
+
+  web:
+    image: nginx
+    ports:
+      - 9090:80
+    networks:
+      - app
+
+  database:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=apple123
+    networks:
+      - app
+
+  ai:
+    build: .
+    networks:
+      - app
+
+networks:
+  app:
+    driver: bridge
