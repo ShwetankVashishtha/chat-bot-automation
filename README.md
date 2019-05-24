@@ -18,7 +18,8 @@ Dockerfile located at project root directory contains Node:alpine OS Image to bu
 docker-compose up -d
   
 <b>Description</b><br>
-docker-compose.yml file comprises of couple of services, executes in an isolated containerized env<br> 
+Automated scripts are executable as part of one of the services defined in yml file.<br>
+docker-compose.yml file comprises of couple of services, executable in an isolated containerized env
 
 # Execute locally
 <b>Install botium-bindings and mocha globally</b><br>
