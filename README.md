@@ -14,7 +14,13 @@ docker build .
 <b>Description</b><br>
 Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on alpine linux image inside container. Docker hub repository: https://cloud.docker.com/repository/docker/shwetankvashishtha/chat-bot-automation
 
-# Execute (Usage)
+# Execute from Docker Compose
+docker-compose up -d
+  
+<b>Description</b><br>
+docker-compose.yml file comprises of couple of services, executes in an isolated containerized env<br> 
+
+# Execute locally
 <b>Install botium-bindings and mocha globally</b><br>
 npm install -g botium-bindings && npm install -g mocha<br>
 
