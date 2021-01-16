@@ -8,7 +8,7 @@ Project leverages open source and freely distributed <a href='https://github.com
 
 https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 
-There are two ways to execute tests:
+There are two ways to execute automated tests:
   * Execute from docker container
   * Execute using docker compose
 
