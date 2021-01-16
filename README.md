@@ -8,7 +8,11 @@ Project leverages open source and freely distributed <a href='https://github.com
 
 https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
 
-# Execute from Docker Container
+There are two ways to execute tests:
+  * Execute from docker container
+  * Execute using docker compose
+
+# Execute from docker container
 <b>Description</b><br>
 Dockerfile located at project root directory contains Node:alpine OS Image to build tests automatically on alpine linux image inside container. 
 
@@ -30,9 +34,8 @@ botium-bindings init mocha<br>
 <b>Execute specs from project root directory</b><br>
 npm install && npm run mocha
 
-# Execute from Docker Compose
+# Execute using docker compose
 docker-compose up -d
   
 <b>Description</b><br>
-Automated scripts are executable as part of one of the services defined in yml file.<br>
-docker-compose.yml file comprises of couple of services, executable in an isolated containerized env
+docker-compose.yml file comprises of couple of services, executable in an isolated containerized environment.
