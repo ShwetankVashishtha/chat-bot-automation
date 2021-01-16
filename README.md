@@ -14,12 +14,12 @@ Dockerfile located at project root directory contains Node:alpine OS Image to bu
 
 <b>Build docker image from Dockerfile</b><br>
 From project's root directory, execute command to build an image:<br>
-docker build -t chat-bot-automation .
+docker build -t shwetankvashishtha/chat-bot-automation:chat-bot-automation .
 
 Alternatively, You can pull pre-built docker image from project repository hosted on docker hub: https://hub.docker.com/r/shwetankvashishtha/chat-bot-automation
 
 <b>Start docker container from image</b><br>
-docker run -it chat-bot-automation /bin/ash
+docker run -it shwetankvashishtha/chat-bot-automation:chat-bot-automation /bin/ash
 
 <b>Install botium-bindings and mocha globally</b><br>
 npm install -g botium-bindings && npm install -g mocha<br>
@@ -36,13 +36,3 @@ docker-compose up -d
 <b>Description</b><br>
 Automated scripts are executable as part of one of the services defined in yml file.<br>
 docker-compose.yml file comprises of couple of services, executable in an isolated containerized env
-
-# Execute locally
-<b>Install botium-bindings and mocha globally</b><br>
-npm install -g botium-bindings && npm install -g mocha<br>
-
-<b>Extend Mocha specs with the Botium test runner</b><br>
-botium-bindings init mocha<br>
-
-<b>Execute specs from project root directory</b><br>
-npm install && npm run mocha
