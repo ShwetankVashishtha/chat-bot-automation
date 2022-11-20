@@ -6,7 +6,7 @@ Project leverages open source and freely distributed <a href='https://github.com
 
 <b>Botium Wiki</b>
 
-https://botium.atlassian.net/wiki/spaces/BOTIUM/overview
+https://botium-docs.readthedocs.io/en/latest/02_introduction/01_introduction.html
 
 There are two ways to execute automated tests:
   * Execute from docker container
