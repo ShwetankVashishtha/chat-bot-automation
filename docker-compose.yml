@@ -11,7 +11,7 @@ services:
   database:
     image: mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=apple123
+      - MYSQL_ROOT_PASSWORD=Apple@123$
     networks:
       - app
 

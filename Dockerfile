@@ -1,6 +1,6 @@
 FROM node:alpine
 
-MAINTAINER Shwetank Vashishtha <vashishthashwetank@gmail.com>
+MAINTAINER Shwetank Vashishtha <shwetank.vashishtha@qa-fiction.com>
 
 RUN apk add --no-cache git && \
     apk add --no-cache openssh
@@ -11,4 +11,4 @@ RUN npm install --ignore-scripts -g botium-bindings && \
     botium-bindings init mocha && \
     npm install && npm run mocha
 
-## Note: A hook is applied on Docker Hub against GitHub which triggers each time repo receives commit.
+## Note: A hook is applied on Docker Hub against GitHub which triggers execution each time repo receives commit.
